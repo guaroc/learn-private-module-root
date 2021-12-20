@@ -1,3 +1,3 @@
-output "website_endpoint" {
-  value = module.s3-webapp.endpoint
+output "ec2_instance_id" {
+  value = module.ec2-private.instance_id
 }
